@@ -20,11 +20,3 @@ public:
         return res;
     }
 };
-
-int main(int argc, char *argv[])
-{
-    vector<int> a{1,1,5,5,7,4,4,4};
-    Solution s;
-    auto c = s.findDisappearedNumbers(a);
-    return 0;
-}
