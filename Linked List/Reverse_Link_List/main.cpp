@@ -25,18 +25,3 @@ NodeList* reverseNodeList(NodeList* pHead) {
     }
     return pReverseHead;
 }
-
-int main(int argc, char *argv[])
-{
-    NodeList *a = new NodeList();
-    a->m_nData = 1;
-    NodeList *b = new NodeList();
-    b->m_nData = 2;
-    a->m_pNext = b;
-    NodeList *c = new NodeList();
-    c->m_nData = 3;
-    b->m_pNext = c;
-    c->m_pNext = NULL;
-    NodeList* re = reverseNodeList(a);
-    return 0;
-}
